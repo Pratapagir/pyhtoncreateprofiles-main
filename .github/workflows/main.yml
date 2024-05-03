@@ -26,7 +26,7 @@ jobs:
         run: pip install faker
         
       - name: create  csv file
-        run: phyton generate.py
+        run: python generate.py
       # lägg till create csv file (glöm inte pip install)
       # lägg till Create JSON file
       # Köra ehnetstester      
